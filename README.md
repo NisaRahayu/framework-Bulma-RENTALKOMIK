@@ -3,9 +3,11 @@ Proyek ini adalah sebuah website fiktif untuk rental komik. Website ini dibangun
 Proyek ini bertujuan untuk memberikan contoh implementasi dari Bulma dalam pembuatan tata letak web yang responsif dan menarik.
 
 ## Fitur Utama
-- Tampilan responsif untuk berbagai perangkat.
 - Desain yang menarik dan mudah dipahami.
-- Halaman daftar peminjam, halaman katalog komik, halaman daftar komik, dan halaman peminjam.
+- Halaman daftar peminjam
+- halaman katalog komik
+- halaman daftar komik
+- halaman peminjam.
 
 ## Instalasi
 1. Clone repositori ini ke dalam direktori lokal Anda:
