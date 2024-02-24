@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body class="has-navbar-fixed-top">
+    <section class="hero is-fullheight">
+      <div class="navbar is-fixed-top has-background-white is-family-monospace is-size-5">
+        <div class="container">
+          <div class="navbar-brand">
+            <div class="navbar-item">
+              <img src="img/logo.png" alt="" class="pr-3">
+              <h1 class="has-text-weight-bold is-size-4">RENTAL KOMIK</h1>
+            </div>
+            <div class="navbar-burger">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+          <div class="navbar-menu">
+            <div class="navbar-end">
+                <a href="page03C.html" class="navbar-item">Home</a>
+                <a href="page03B.html" class="navbar-item is-active">Daftar Peminjam</a>
+                <a href="page03A.html" class="navbar-item is-active">Daftar Komik</a>
+              <div class="navbar-item">
+                  <button class="button is-rounded has-background-primary-light has-text-weight-bold">Login</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="hero-body has-background-warning-light">
+        <div class="columns is-centered">
+          <div class="column is-9">
+            <div class="columns is-variable is-7 box">
+              <div class="column p-0">
+                <figure class="image is-fullwidth">
+                  <img                   
+                    src="img/foto komik.jpg"
+                  />
+                </figure>
+              </div>
+
+              <div class="column is-justify-content-center is-vcentered pt-6">
+                <h1 class="title is-2 has-text-centered">
+                  Form Menambahkan Daftar Komik
+                </h1>
+                <div class="has-text-centered">
+                  <figure class="image is-128x128 is-inline-block">
+                    <img
+                      class="is-rounded is-align-items-center"
+                      src="img/logo.png"
+                    />
+                  </figure>
+                </div>
+
+                <form>
+                  <div class="field is-horizontal mt-6">
+                    <div class="field-label is-normal">
+                      <label for="no" class="label">Nomor :</label>
+                    </div>
+                    <div class="field-body">
+                      <div class="field">
+                        <div class="control has-icons-left">
+                          <input type="number" class="input is-rounded" id="no" placeholder="Masukkan Nomor Komik" />
+                          <span class ="icon is-small is-left"><i class="fas fa-tag"></i></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="field is-horizontal mt-5">
+                    <div class="field-label is-normal">
+                      <label for="judul" class="label">Judul :</label>
+                    </div>
+                    <div class="field-body">
+                      <div class="field">
+                        <div class="control has-icons-left">
+                          <input type="text" class="input is-rounded" id="judul" placeholder="Masukkan Judul Komik" />
+                          <span class="icon is-small is-left"><i class="fas fa-font"></i></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="field is-horizontal mt-5">
+                    <div class="field-label is-normal">
+                      <label for="sampul" class="label">Sampul :</label>
+                    </div>
+                    <div class="field-body">
+                      <div class="file is-primary">
+                        <label class="file-label">
+                          <input class="file-input" type="file" name="resume" />
+                          <span class="file-cta">
+                            <span class="file-icon">
+                              <i class="fas fa-upload"></i>
+                            </span>
+                            <span class="file-label"> Primary file… </span>
+                          </span>
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+
+                <div
+                  class="field is-grouped ml-5 mt-6 is-justify-content-center"
+                >
+                  <div class="control">
+                    <button class="button is-primary">Tambah</button>
+                  </div>
+                  <div class="control">
+                    <button class="button is-primary is-light">Batal</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="content has-text-centered">
+        <div>
+          <img src="img/logo.png" alt="" style="width: 40px;">
+        </div>
+        <div>
+          <a href="#" class="has-text-primary mr-3">
+            <i class="fa fa-facebook"></i>
+          </a>
+          <a href="#" class="has-text-primary mr-3">
+            <i class="fa fa-instagram"></i>
+          </a>
+          <a href="#" class="has-text-primary mr-3">
+            <i class="fa fa-youtube-play"></i>
+          </a>
+          <a href="#" class="has-text-primary mr-3">
+            <i class="fa fa-twitter"></i>
+          </a>
+        </div>
+        All rights reserved &copy Politeknik Statistika STIS 2024
+      </div>
+    </footer>
+  </body>
+</html>
