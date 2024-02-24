@@ -5,9 +5,9 @@ Proyek ini bertujuan untuk memberikan contoh implementasi dari Bulma dalam pembu
 ## Fitur Utama
 - Desain yang menarik dan mudah dipahami.
 - Halaman daftar peminjam
-- halaman katalog komik
-- halaman daftar komik
-- halaman peminjam.
+- Halaman katalog komik
+- Halaman daftar komik
+- Halaman peminjam.
 
 ## Instalasi
 1. Clone repositori ini ke dalam direktori lokal Anda:
